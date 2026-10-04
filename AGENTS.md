@@ -80,6 +80,8 @@ website/     VitePress documentation projection
 
 Package groups: [packages/README.md](packages/README.md).
 
+Follow the [fork workflow](.agents/fork-workflow.md).
+
 ## Commands
 
 ```sh
