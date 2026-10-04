@@ -1,0 +1,4 @@
+- id: balance-test
+  name: cordis:api-balance
+  config:
+    timeoutMs: 10000

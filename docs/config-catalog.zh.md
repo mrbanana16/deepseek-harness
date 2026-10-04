@@ -533,6 +533,23 @@ export interface Config {
 ```
 <!-- END GENERATED config-catalog:@deepseek-ai/dsh-client-shortcuts -->
 
+<!-- BEGIN GENERATED config-catalog:@deepseek-ai/dsh-client-ui-api-balance -->
+<a id="deepseek-aidsh-client-ui-api-balance"></a>
+
+## `@deepseek-ai/dsh-client-ui-api-balance`
+
+- `inject`: `llm` · `settings` · `credentials`
+- `source`: [`packages/client/ui-api-balance/src/index.ts:14`](../packages/client/ui-api-balance/src/index.ts)
+
+```ts config-catalog
+/** Deadline for an official balance request. */
+export interface Config {
+  /** Maximum request duration, including reading the response JSON. */
+  timeoutMs: number
+}
+```
+<!-- END GENERATED config-catalog:@deepseek-ai/dsh-client-ui-api-balance -->
+
 <!-- BEGIN GENERATED config-catalog:@deepseek-ai/dsh-client-ui-plugin-manager -->
 <a id="deepseek-aidsh-client-ui-plugin-manager"></a>
 

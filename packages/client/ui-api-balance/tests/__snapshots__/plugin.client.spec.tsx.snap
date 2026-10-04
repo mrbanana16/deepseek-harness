@@ -1,0 +1,54 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`renders immediately above Settings, queries once, and refreshes through the generated Remote > balance above settings 1`] = `
+<div
+  data-slot="sidebar.footer.action"
+  style="display: contents;"
+>
+  <div
+    class="row"
+  >
+    <svg
+      aria-hidden="true"
+      class="money"
+      data-content="59c3e7dc"
+      fill="none"
+      height="18"
+      stroke="currentColor"
+      stroke-width="1"
+      viewBox="0 0 16 16"
+      width="18"
+      xmlns="http://www.w3.org/2000/svg"
+    />
+    <span
+      class="title"
+    >
+      余额：
+    </span>
+    <span
+      aria-live="polite"
+      class="amount"
+      data-tone="normal"
+      role="status"
+    >
+      ¥10.99
+    </span>
+    <button
+      aria-label="刷新余额"
+      class="refresh"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        data-content="adb68519"
+        fill="none"
+        height="16"
+        stroke-width="1"
+        viewBox="0 0 16 16"
+        width="16"
+        xmlns="http://www.w3.org/2000/svg"
+      />
+    </button>
+  </div>
+</div>
+`;
