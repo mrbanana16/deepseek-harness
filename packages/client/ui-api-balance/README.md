@@ -50,7 +50,7 @@ The row follows the active conversation's selected provider, falling back to the
 <details>
 <summary>Implementation internals — click to expand</summary>
 
-The Host service owns credential resolution, official-origin checks, JSON validation, and request cancellation. The browser model retains one page-local result and shares outstanding refreshes. The browser consumer declares its `remote.apiBalance` dependency after mounting the generated Remote contribution. The plugin binds its observable result to a framework hook and contributes a row through `sidebar.footer.action`; the sidebar owns placement above Settings. Plugin disposal removes the contribution, cancels outstanding requests, and waits for them to settle. The provider-selection projection and configuration notifications update display policy without polling the balance.
+The Host uses shared credentials, LLM, and launch-environment packages through peer dependencies. The Host service owns credential resolution, official-origin checks, JSON validation, and request cancellation. The browser model retains one page-local result and shares outstanding refreshes. The browser consumer declares its `remote.apiBalance` dependency after mounting the generated Remote contribution. The plugin binds its observable result to a framework hook and contributes a row through `sidebar.footer.action`; the sidebar owns placement above Settings. Plugin disposal removes the contribution, cancels outstanding requests, and waits for them to settle. The provider-selection projection and configuration notifications update display policy without polling the balance.
 
 </details>
 

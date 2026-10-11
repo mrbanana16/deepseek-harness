@@ -61,6 +61,9 @@ const SAFE_HOST_DEPENDENCY_EXPORTS = {
 
 /** Runtime exports that require every consumer to resolve the provider's shared peer instance. */
 const PEER_REQUIRED_HOST_EXPORTS = {
+  '@deepseek-ai/dsh-credentials': ['credentialRef'],
+  '@deepseek-ai/dsh-launch-environment': ['launchEnvironmentOf'],
+  '@deepseek-ai/dsh-llm': ['assertUsableApiKey'],
   '@deepseek-ai/dsh-client-connection': ['OperatorPeer'],
   '@deepseek-ai/dsh-scope': ['carrierKeyOf', 'createScope', 'scopeOf', 'scopeTarget'],
   '@deepseek-ai/dsh-session': ['SESSION_FORMAT_VERSION'],
